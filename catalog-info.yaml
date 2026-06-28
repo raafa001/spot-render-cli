@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: spot-render-cli
+  description: Python CLI helper storing artist identity locally.
+  tags:
+    - python
+spec:
+  type: tool
+  lifecycle: experimental
+  owner: group:spot-render-team
+  system: spot-render
